@@ -9,7 +9,7 @@ from shutil import copyfile
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
-COPY_RA_IMAGE = True  # set to False if you do not need title image, this will cost extra disk space
+COPY_RA_IMAGE = False  # set to False if you do not need title image, this will cost extra disk space
 RA_PLAY_LIST_DIR = "/storage/playlists"
 ES_CFG_FILE = "/storage/.config/emulationstation/es_systems.cfg"
 ES_GAME_LIST_FILE_NAME = "gamelist.xml"
