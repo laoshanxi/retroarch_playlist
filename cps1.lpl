@@ -1,0 +1,267 @@
+{
+  "version": "1.4",
+  "default_core_path": "/tmp/cores/fba_libretro.so",
+  "default_core_name": "fba_libretro.so",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/storage/roms/cps1/1941.zip",
+      "label": "1941",
+      "core_path": "/tmp/cores/fba_libretro.so",
+      "core_name": "fba_libretro.so",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/3wonders.zip",
+      "label": "3wonders",
+      "core_path": "/tmp/cores/fba_libretro.so",
+      "core_name": "fba_libretro.so",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/captcomm.zip",
+      "label": "captcomm",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/cawing.zip",
+      "label": "cawing",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/dino.zip",
+      "label": "dino",
+      "core_path": "/tmp/cores/fba_libretro.so",
+      "core_name": "fba_libretro.so",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/dynwarjr.zip",
+      "label": "dynwarjr",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/ffight.zip",
+      "label": "ffight",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/forgottn.zip",
+      "label": "forgottn",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/ghouls.zip",
+      "label": "ghouls",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/knights.zip",
+      "label": "knights",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/kod.zip",
+      "label": "kod",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/mbombrd.zip",
+      "label": "mbombrd",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/megaman.zip",
+      "label": "megaman",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/mercsj.zip",
+      "label": "mercsj",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/msword.zip",
+      "label": "msword",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/mtwins.zip",
+      "label": "mtwins",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/nemo.zip",
+      "label": "nemo",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/pang3.zip",
+      "label": "pang3",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/pnickj.zip",
+      "label": "pnickj",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/punisher.zip",
+      "label": "punisher",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/sf2.zip",
+      "label": "sf2",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/sf2ce.zip",
+      "label": "sf2ce",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/sf2hf.zip",
+      "label": "sf2hf",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/sfzch.zip",
+      "label": "sfzch",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/slammast.zip",
+      "label": "slammast",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/strider.zip",
+      "label": "strider",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/unsquad.zip",
+      "label": "unsquad",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/varth.zip",
+      "label": "varth",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/willow.zip",
+      "label": "willow",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/wofa.zip",
+      "label": "wofa",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/wofch.zip",
+      "label": "wofch",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    },
+    {
+      "path": "/storage/roms/cps1/wofj.zip",
+      "label": "wofj",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "cps1.lpl"
+    }
+  ]
+}
