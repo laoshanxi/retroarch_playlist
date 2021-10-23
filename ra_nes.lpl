@@ -1,0 +1,90 @@
+{
+  "version": "1.4",
+  "default_core_path": "/tmp/cores/fceumm_libretro.so",
+  "default_core_name": "Nintendo - NES / Famicom (FCEUmm)",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/storage/roms/nes/top100/001 - Super Mario Bros. 3 (USA).zip",
+      "label": "001 - Super Mario Bros. 3 (USA)",
+      "core_path": "/tmp/cores/fceumm_libretro.so",
+      "core_name": "Nintendo - NES / Famicom (FCEUmm)",
+      "crc32": "00000000|crc",
+      "db_name": "nes.lpl"
+    },
+    {
+      "path": "/storage/roms/nes/top100/002 - Legend of Zelda, The (USA).zip",
+      "label": "002 - Legend of Zelda, The (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "nes.lpl"
+    },
+    {
+      "path": "/storage/roms/nes/top100/003 - Super Mario Bros. (World).zip",
+      "label": "003 - Super Mario Bros. (World)",
+      "core_path": "/tmp/cores/fceumm_libretro.so",
+      "core_name": "Nintendo - NES / Famicom (FCEUmm)",
+      "crc32": "00000000|crc",
+      "db_name": "nes.lpl"
+    },
+    {
+      "path": "/storage/roms/nes/top100/004 - Mega Man 2 (USA).zip",
+      "label": "004 - Mega Man 2 (USA)",
+      "core_path": "/tmp/cores/fceumm_libretro.so",
+      "core_name": "Nintendo - NES / Famicom (FCEUmm)",
+      "crc32": "00000000|crc",
+      "db_name": "nes.lpl"
+    },
+    {
+      "path": "/storage/roms/nes/top100/005 - Castlevania III - Dracula's Curse (USA).zip",
+      "label": "005 - Castlevania III - Dracula's Curse (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "nes.lpl"
+    },
+    {
+      "path": "/storage/roms/nes/top100/006 - Metroid (USA).zip",
+      "label": "006 - Metroid (USA)",
+      "core_path": "/tmp/cores/fceumm_libretro.so",
+      "core_name": "Nintendo - NES / Famicom (FCEUmm)",
+      "crc32": "00000000|crc",
+      "db_name": "nes.lpl"
+    },
+    {
+      "path": "/storage/roms/nes/top100/007 - Mike Tyson's Punch-Out!! (Japan, USA).zip",
+      "label": "007 - Mike Tyson's Punch-Out!! (Japan, USA)",
+      "core_path": "/tmp/cores/fceumm_libretro.so",
+      "core_name": "Nintendo - NES / Famicom (FCEUmm)",
+      "crc32": "00000000|crc",
+      "db_name": "nes.lpl"
+    },
+    {
+      "path": "/storage/roms/nes/top100/008 - Dragon Warrior (USA).zip",
+      "label": "008 - Dragon Warrior (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "nes.lpl"
+    },
+    {
+      "path": "/storage/roms/nes/top100/009 - Bionic Commando (USA).zip",
+      "label": "009 - Bionic Commando (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "nes.lpl"
+    },
+    {
+      "path": "/storage/roms/nes/top100/010 - DuckTales (USA).zip",
+      "label": "010 - DuckTales (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "nes.lpl"
+    }  ]
+}
