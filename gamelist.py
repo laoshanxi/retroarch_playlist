@@ -17,6 +17,12 @@ GET_CORE_SHELL_FILE = "/tmp/ES_CORE_PARSE_SHELL.sh"
 TEMP_CORE_SHELL_OUTPUT_FILE = "/tmp/TXT_CORE_PATH"
 
 
+def main():
+    with open(GET_CORE_SHELL_FILE, "w", encoding="utf-8") as file:
+        file.write(get_es_parse_core_shell())
+    read_es_config()
+
+
 class es_core_obj:
     def __init__(self) -> None:
         self.name = ""
@@ -396,6 +402,4 @@ fi
 
 
 if __name__ == "__main__":
-    with open(GET_CORE_SHELL_FILE, "w", encoding="utf-8") as file:
-        file.write(get_es_parse_core_shell())
-    read_es_config()
+    main()
