@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# -*- coding:utf-8 -*-
+
 import os
 import json
 import traceback
@@ -37,10 +39,10 @@ class game_obj:
     def __init__(self) -> None:
         self.path = ""
         self.label = ""
+        self.db_name = ""
         # self.core_path = ""
         # self.core_name = ""
         # self.crc32 = ""
-        self.db_name = ""
         # self.image = ""
 
 
@@ -67,7 +69,7 @@ def mkdir(path):
 
 def read_xml(file_name):
     with open(file_name, "rb") as file:
-        file_content = bytes.decode(file.read())
+        file_content = bytes.decode(file.read()).replace("&", "")
         return xml.dom.minidom.parseString(file_content)
 
 
@@ -152,11 +154,16 @@ def read_gamelist(core):
                 game_image = (
                     game_element.getElementsByTagName("image")[0].childNodes[0].data if len(game_element.getElementsByTagName("image")) > 0 else ""
                 )
+                game_label = (
+                    game_element.getElementsByTagName("sortname")[0].childNodes[0].data
+                    if len(game_element.getElementsByTagName("sortname")) > 0
+                    else ""
+                )
                 game = game_obj()
                 es_image_path = os.path.join(core.path, game_image.lstrip("./"))
                 game.path = os.path.join(core.path, game_path.lstrip("./"))
                 game.db_name = ra_playlist_name
-                game.label = game_name
+                game.label = game_label if len(game_label) > 0 else game_name
                 if COPY_RA_IMAGE and os.path.exists(es_image_path):
                     try:
                         # copyfile(es_image_path, os.path.join(ra_boxarts_path, game_name) + ".png")
