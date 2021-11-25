@@ -7,6 +7,7 @@ import traceback
 import logging
 import xml.dom.minidom
 from shutil import copyfile
+from zh import *
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
@@ -20,7 +21,7 @@ TEMP_CORE_SHELL_OUTPUT_FILE = "/tmp/TXT_CORE_PATH"
 
 
 def main():
-    read_nes_gamelist(os.path.join(os.getcwd(), "top100\\gamelist.xml"))
+    read_nes_gamelist(os.path.join(os.getcwd(), "IGN\\gamelist.xml"))
 
 
 class es_core_obj:
@@ -196,9 +197,10 @@ def read_nes_gamelist(es_gamelist_full_path):
                     else ""
                 )
                 game = game_obj()
-                game.path = os.path.join(dir_name + "\\top100", game_path.lstrip("./").replace("/", "\\"))
+                game.path = os.path.join(dir_name + "\\", game_path.lstrip("./").replace("/", "\\"))
                 game.label = game_label if len(game_label) > 0 else game_name
-                game.label = game.label.split("=-")[-1]
+                game.label = (game.label.split("=-")[-1]).replace(" ", "")
+                game.label = chs_to_cht(game.label)
 
                 # mkdir(target_dir)
                 if os.path.exists(game.path):
